@@ -982,8 +982,6 @@ void inventory::assign_empty_invlet( item &it, const Character &p, const bool fo
         filtered_inv_chars = &inv_chars_no_vi;
     }
 
-
-
     invlets_bitset cur_inv = p.allocated_invlets();
     itype_id target_type = it.typeId();
     for( auto iter : assigned_invlet ) {
